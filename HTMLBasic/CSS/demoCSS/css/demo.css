@@ -1,0 +1,44 @@
+/* h1 : selector
+text-align : property
+center : value */
+
+/* tag name */
+h1 {
+    font-size: 40px
+}
+
+/* class name */
+.heading2, p{
+    background-color: green;
+}
+
+/* id */
+#title2{
+    color :white
+}
+
+/* way2 
+p{
+    background-color: green;
+} */
+
+/* select p tag in section1 */
+.section1 p{
+    font-size: 30px;
+}
+
+/* select span tag in section1 */
+.section1 span{
+    color: red;
+}
+
+/* get all tag */
+*{
+    font-weight: bold;
+    /* padding: 0;
+    margin: 0; */
+}
+
+p[class=section1]{
+    background-color: violet;
+}

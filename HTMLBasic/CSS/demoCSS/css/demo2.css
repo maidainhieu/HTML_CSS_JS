@@ -1,0 +1,27 @@
+/* Cho diem uu tien la 1 */
+h1{
+    background-color: red;
+}
+
+/* viet cach la quan he cha con
+viet sat nhau la cung 1 the */
+
+
+/* 10 + 100 */
+.section1 #title1 {
+    background-color: blue;
+}
+/* 10 + 100 */
+.heading1#title1{
+    background-color: burlywood;
+}
+
+/* Cho diem uu tien la 100 */
+#title1{
+    background-color: green;
+}
+/* Cho diem uu tien la 10 */
+.heading1{
+    background-color: yellow;
+}
+

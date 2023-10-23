@@ -1,0 +1,32 @@
+*{
+ margin: 0;
+ padding: 0;   
+}
+/* GLOBAL */
+html, body{
+    /* Khai bao them 2 font phia sau de du phong neu may khong co font dau tien */
+    font-family: 'Times New Roman', Times, serif;
+}
+/* HEADER */
+.header img{
+    width: 250px
+}
+
+.header ul{
+    list-style: none;
+    background-color: black;
+    padding: 20px 0;
+}
+
+.header a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+
+}  
+
+.header li{
+    display: inline;
+    margin: 0 10px;
+}
+
