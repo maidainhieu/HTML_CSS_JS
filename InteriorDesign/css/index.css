@@ -1,12 +1,17 @@
-*{
- margin: 0;
- padding: 0;   
-}
 /* GLOBAL */
+* {
+    /* margin: 0;
+    padding: 0; */
+    /* thuoc tinh box-sizing: border-box de dam bao the luon co kich thuoc la gia tri ma ta xet, neu gia su co them padding thi phan noi dung se bi co lai de dam bao tong luon la gia tri kich thuoc ta xet */
+    box-sizing: border-box;
+}
 html, body{
     /* Khai bao them 2 font phia sau de du phong neu may khong co font dau tien */
     font-family: 'Times New Roman', Times, serif;
-}  
+} 
+.clear{
+    clear:both;
+} 
 /* HEADER */
 .header img{
     width: 250px
@@ -16,6 +21,7 @@ html, body{
     list-style: none;
     background-color: black;
     padding: 15px 0;
+    margin: 5px 0px 5px;
 }
 
 .header a{
@@ -33,6 +39,102 @@ html, body{
 /* CAROUSEL */
 .carousel{
     background-image: url("../img/slider_1.jpg");
-    height: 550px;
+    height: 680px;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+
+/* INTRO */
+.intro__text{
+    font-size: 20px;
+}
+
+.intro__text span{
+    color: red;
+    font-weight: bold;
+}
+
+.intro__left, .intro__right{
+    float: left;
+    width: 50%;
+}
+
+
+.intro__smallItem{
+    float: left;
+    width: 50%;
+}
+
+.intro__item img{
+    width: 100%;
+    display: block;
+}
+
+.intro__item{
+    padding: 0 15px 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PRODUCTS */
+.products{
+    /* margin-bottom: 300px; */
+}
+
+.products h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.products__item{
+    float: left; 
+    width : 25%;
+    padding: 0 10px;
+} 
+
+
+.products__item img{
+    width: 100%;
+}
+
+.products__item h3{
+    font-size: 25px;
+} 
+.products__item p{
+    font-size: 17px;
+} 
+
+.products__item button{
+    background-color: red;
+
+    border: 1px solid red;
+    border-radius: 3px;
+
+    color: white;
+    padding: 5px 10px;
+        
+} 
