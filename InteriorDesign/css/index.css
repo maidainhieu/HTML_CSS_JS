@@ -1,7 +1,7 @@
 /* GLOBAL */
 * {
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     /* thuoc tinh box-sizing: border-box de dam bao the luon co kich thuoc la gia tri ma ta xet, neu gia su co them padding thi phan noi dung se bi co lai de dam bao tong luon la gia tri kich thuoc ta xet */
     box-sizing: border-box;
 }
@@ -73,31 +73,8 @@ html, body{
 }
 
 .intro__item{
-    padding: 0 15px 25px;
+    padding: 0 15px 25px; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* PRODUCTS */
@@ -138,3 +115,34 @@ html, body{
     padding: 5px 10px;
         
 } 
+
+/* BANNER */
+
+.banner{
+    background-image: url("../img/nature.jpg");
+    height: 400px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.banner__circle{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(131, 41, 39, 0.8);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    /* opacity: 0.8. Thuoc tinh nay se lam mo the dang css va cac the con cua the do*/
+
+}
+
+
+.banner__circle p{
+    font-size: 20px;
+}
+
+.banner__circle p:first-child{
+    font-size: 30px;
+}
